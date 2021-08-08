@@ -473,7 +473,7 @@ M.prettier_d_slim = h.make_builtin({
     factory = h.formatter_factory,
 })
 
-M.prismaFmt = h.make_builtin({
+M.prisma = h.make_builtin({
     method = FORMATTING,
     filetypes = { "prisma" },
     generator_opts = {
